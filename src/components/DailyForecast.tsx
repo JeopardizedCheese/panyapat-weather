@@ -1,5 +1,5 @@
 import type { DailyData } from "../../types/weather";
-import { Sun, Cloud, CloudRain, CloudSnow, Zap, CloudDrizzle, CloudFog} from 'lucide-react';
+import { Sun, Cloud, CloudRain } from 'lucide-react';
 
 interface DailyForeCastProps {
     forecast: DailyData[];
